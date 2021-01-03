@@ -1,5 +1,6 @@
-on: pull_request_review
+
 name: AZ-400 Team approval workflow
+on: pull_request_review
 jobs:
   LabelWhenApproved:
     runs-on: ubuntu-latest
